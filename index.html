@@ -13,7 +13,7 @@
 <body>
     <!-- header started -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <nav class="navbar navbar-light bg-light">
@@ -35,13 +35,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bagpack</a>
+                            <a class="nav-link" href="#bagpack">Bagpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -136,7 +136,7 @@
             </div>
         </section>
         <!-- Shoe section -->
-        <section class="container">
+        <section class="container" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -185,8 +185,8 @@
             </div>
         </section>
         <!-- Bag section -->
-        <section class="container my-5">
-            <h2>Bags</h2>
+        <section id="bagpack" class="container my-5">
+            <h2>Bagpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card h-100 border-0  shadow">
@@ -234,7 +234,7 @@
             </div>
         </section>
         <!-- subscribe -->
-        <section style="height: 300px;"
+        <section id="subscribe" style="height: 300px;"
             class="container bg-info d-flex justify-content-center align-items-center my-5 rounded-3">
             <div>
                 <h1>LET'S STAY IN TOUCH
